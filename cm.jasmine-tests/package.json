@@ -1,0 +1,30 @@
+{
+    "nativescript": {
+        "id": "org.nativescript.myunittestapp",
+        "tns-ios": {
+            "version": "5.0.0"
+        },
+        "tns-android": {
+            "version": "5.0.0"
+        }
+    },
+    "main": "app.js",
+    "description": "NativeScript Application",
+    "license": "SEE LICENSE IN <your-license-filename>",
+    "repository": "<fill-your-repository-here>",
+    "dependencies": {
+        "jasmine-core": "^3.3.0",
+        "nativescript-theme-core": "~1.0.4",
+        "nativescript-unit-test-runner": "^0.4.1",
+        "tns-core-modules": "~5.0.2"
+    },
+    "devDependencies": {
+        "@types/jasmine": "^3.3.8",
+        "karma": "4.0.0",
+        "karma-jasmine": "2.0.1",
+        "karma-nativescript-launcher": "0.4.0",
+        "nativescript-dev-typescript": "~0.7.0",
+        "nativescript-dev-webpack": "~0.18.0"
+    },
+    "readme": "NativeScript Application"
+}

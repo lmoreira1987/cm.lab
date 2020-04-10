@@ -1,0 +1,23 @@
+{
+	"nativePlatformStatus": "3",
+	"appFilesHashes": {
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\app-root.xml": "900a386cb2d8abc9573413eb3aff45448dcd3608",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\app.css": "6b35cf7fc669764bd611ef9fe3164457246cfaed",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\app.js": "d2291dc4827adda4b6003911539e4702df962fa8",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\app.ts": "d2aee20ec12265aac675d8f866c60b7d03ec5bb6",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\main-page.js": "1a09d481715a789247a2d6866b20e92ef3b1116f",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\main-page.ts": "07dbf12d1643feb07948ecaa3e4e4ec8febf1cd9",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\main-page.xml": "b0bee0004c8224a6bbf2a46b3bd5bb9b7fad11ff",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\main-view-model.js": "60fa998f346b6dc4b8fde36e43efc2c92761c8ce",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\main-view-model.ts": "b34974bc2be511015c5570aa3a8ad2a85153b984",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\package.json": "554a1e7b09cfa1663c75683765118999cb11411a",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\tests\\example.js": "7fdff20c10da62f872f2dec1d4404ba4a47750fd",
+		"C:\\dev\\UnitTestsJasmine\\my-unit-test-app\\app\\tests\\example.ts": "6c93991255dcfce41d024e79147f2fac67dbbaef"
+	},
+	"release": false,
+	"bundle": false,
+	"changesRequireBuild": true,
+	"time": "Fri Feb 08 2019 15:59:22 GMT+0000 (GMT Standard Time)",
+	"changesRequireBuildTime": "Fri Feb 08 2019 15:59:22 GMT+0000 (GMT Standard Time)",
+	"projectFileHash": "07cc807b469bcdfb7074bf9b67636d1399446042eca50292cbc67dc9f58435da"
+}

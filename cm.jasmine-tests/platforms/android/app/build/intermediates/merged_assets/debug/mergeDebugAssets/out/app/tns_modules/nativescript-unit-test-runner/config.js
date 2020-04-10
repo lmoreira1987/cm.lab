@@ -1,0 +1,1 @@
+module.exports = {"port":"9876","ips":["172.16.48.206","127.0.0.1"],"options":{"debugTransport":false,"debugBrk":false,"watch":false}}

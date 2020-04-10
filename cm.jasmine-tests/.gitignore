@@ -1,0 +1,39 @@
+# FOLDERS
+/node_modules
+Source/platforms
+Source/etc
+Source/builds
+Source/.cloud/**/*
+Source/typings/**/*
+Source/package-lock.json
+
+# GLOBAL - Extensions
+**/*.js.map
+**/*.metadata.json
+
+# APP - Extension
+Source/app/**/*.js
+!Source/app/www/lib/**/*.js
+Source/app/**/*.css
+
+# APP - Multilanguage
+Source/app/App_Resources/**/strings.xml
+Source/app/App_Resources/iOS/**/*.strings
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - WebStorm
+Source/.idea/
+
+# Windows files
+**/Thumbs.db
+
+# Mac OS files
+**/.DS_Store
+**/__MACOSX/**/*
+
