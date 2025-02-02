@@ -1,0 +1,15 @@
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/bin/Debug/net9.0/coding-interview-questions
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/bin/Debug/net9.0/coding-interview-questions.deps.json
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/bin/Debug/net9.0/coding-interview-questions.runtimeconfig.json
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/bin/Debug/net9.0/coding-interview-questions.dll
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/bin/Debug/net9.0/coding-interview-questions.pdb
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.AssemblyInfoInputs.cache
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.AssemblyInfo.cs
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.csproj.CoreCompileInputs.cache
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.sourcelink.json
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.dll
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/refint/coding-interview-questions.dll
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.pdb
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/coding-interview-questions.genruntimeconfig.cache
+/Users/leonardomoreira/Desktop/dev/cm.lab/cm.algo-expert/coding-interview-questions/obj/Debug/net9.0/ref/coding-interview-questions.dll
