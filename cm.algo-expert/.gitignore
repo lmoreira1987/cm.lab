@@ -1,1 +1,19 @@
 .DS_Store
+
+# Ignorar arquivos binários e de build do .NET
+bin/
+obj/
+
+# Ignorar arquivos específicos do Debug
+*.dll
+*.pdb
+*.cache
+*.sourcelink.json
+
+# Ignorar arquivos gerados automaticamente
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+
+# Ignorar diretórios de referência
+obj/**/ref/
+obj/**/refint/
