@@ -6,4 +6,6 @@ int[] array = [3, 5, -1, 8, 11, 1, -1, 6];
 int targetSum = 10;
 // Result: -1 + 11 = 10
 
-Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSum(array, targetSum)));
+// Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSum(array, targetSum)));
+Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSumWithHashtable(array, targetSum)));
+
