@@ -9,9 +9,8 @@ public class GreenTwoNumberSum {
       {
         if (array[i] + array[j] == targetSum)
         {
-          return [array[i], array[j]];
+          return new int[] { array[i], array[j] };
         }
-        // Console.WriteLine(i + " - " + j);
       }  
     }
 
