@@ -7,5 +7,7 @@ int targetSum = 10;
 // Result: -1 + 11 = 10
 
 // Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSum(array, targetSum)));
-Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSumWithHashtable(array, targetSum)));
+// Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSumWithHashtable(array, targetSum)));
+
+Console.WriteLine(string.Join(", ", GreenBubbleSort.BubbleSort([8, 5, 2, 9, 5, 6, 3])));
 
