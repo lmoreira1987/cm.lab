@@ -9,5 +9,7 @@ int targetSum = 10;
 // Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSum(array, targetSum)));
 // Console.WriteLine(string.Join(", ", GreenTwoNumberSum.TwoNumberSumWithHashtable(array, targetSum)));
 
-Console.WriteLine(string.Join(", ", GreenBubbleSort.BubbleSort([8, 5, 2, 9, 5, 6, 3])));
+// Console.WriteLine(string.Join(", ", GreenBubbleSort.BubbleSort([8, 5, 2, 9, 5, 6, 3])));
+
+PalindromeCheck.IsPalindrome("ab");
 
