@@ -15,27 +15,25 @@ public class Tree {
     }
   }
 
+  // O(n) time | O(n) space
   public static List<int> BranchSums(BinaryTree root) {
-    var bs = new List<int>();
-    
-    BranchSumsCalculate(root, bs, 0);
-
-    return bs;
+    var sums = new List<int>();    
+    BranchSumsCalculate(root, sums, 0);
+    return sums;
   }
 
-  // O(n) time | O(n) space
-  public static void BranchSumsCalculate(BinaryTree node, List<int> bs, int sum) {
+  public static void BranchSumsCalculate(BinaryTree node, List<int> sums, int sum) {
     if (node == null) return;
 
     int runningSum = sum + node.value;
     if (node.left == null && node.right == null)
     {
-        bs.Add(runningSum);
+        sums.Add(runningSum);
         return;
     }
 
-    BranchSumsCalculate(node.left, bs, runningSum);
-    BranchSumsCalculate(node.right, bs, runningSum);
+    BranchSumsCalculate(node.left, sums, runningSum);
+    BranchSumsCalculate(node.right, sums, runningSum);
   }
 
   public static void Setup() {
