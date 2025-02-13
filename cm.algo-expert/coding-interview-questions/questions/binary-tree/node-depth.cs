@@ -1,5 +1,5 @@
 public class TreeND {
-  // O(n) time | O(n) space
+  // O(n) time | O(h) space [Where h is the height of the tree]
   public static int NodeDepths(BinaryTree root) {    
     return CalculateNodeDepth(root, 0, 0);
   }
