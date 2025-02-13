@@ -1,16 +1,4 @@
 public class Tree {
-  public class BinaryTree {
-    public int value;
-    public BinaryTree left;
-    public BinaryTree right;
-
-    public BinaryTree(int value) {
-      this.value = value;
-      this.left = null;
-      this.right = null;
-    }
-  }
-
   // O(n) time | O(n) space
   public static List<int> BranchSums(BinaryTree root) {
     var sums = new List<int>();    
