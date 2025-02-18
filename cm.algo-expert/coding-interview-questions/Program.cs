@@ -14,5 +14,6 @@
 // PalindromeCheck.IsPalindrome("ab");
 
 //Tree.Setup();
-TreeND.Setup();
+// TreeND.Setup();
+Solution01.Setup();
 
