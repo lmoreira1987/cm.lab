@@ -15,5 +15,6 @@
 
 //Tree.Setup();
 // TreeND.Setup();
-Solution01.Setup();
+// Solution01.Setup();
+Console.WriteLine("Index: " + FirstUniqueCharProblem.FirstUniqueChar("leodevl"));
 
