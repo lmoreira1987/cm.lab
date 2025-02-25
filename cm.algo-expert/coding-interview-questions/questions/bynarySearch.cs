@@ -8,18 +8,13 @@ public class BinarySearchProblem {
     {
         int middle = (int)((left + right) / 2);
         int potentialMatch = array[middle];
+        
         if (potentialMatch == target) 
-        {
             return middle;   
-        }
         else if (potentialMatch > target)
-        {
             right = middle - 1;
-        }        
         else
-        {
             left = middle + 1;
-        }
     }
       
     return -1;
