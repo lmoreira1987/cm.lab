@@ -17,5 +17,6 @@
 // TreeND.Setup();
 // Solution01.Setup();
 // Console.WriteLine("Index: " + FirstUniqueCharProblem.FirstUniqueChar("leodevl"));
-Console.WriteLine("Index: " + BinarySearchProblem.BinarySearch(new int[]{0, 1, 21, 33, 45, 45, 61, 71, 72, 73}, 33));
+//Console.WriteLine("Index: " + BinarySearchProblem.BinarySearch(new int[]{0, 1, 21, 33, 45, 45, 61, 71, 72, 73}, 33));
+Console.WriteLine(string.Join(", ", InsertionSortProblem.InsertionSort(new int[]{8, 5, 2, 9, 5, 6, 3})));
 
