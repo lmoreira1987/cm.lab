@@ -6,14 +6,14 @@ public class InsertionSortProblem {
     {
         for (int i = startIndex; i > 0; i--)
             if (array[i-1] > array[i])
-                swap(array, i);
+                Swap(array, i);
         startIndex++;
     }
       
     return array;
   }
 
-  public static void swap(int[] array, int index) {
+  public static void Swap(int[] array, int index) {
       int temp = array[index];    
       array[index] = array[index-1];
       array[index-1] = temp;

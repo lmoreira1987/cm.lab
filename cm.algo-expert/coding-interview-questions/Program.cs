@@ -18,5 +18,9 @@
 // Solution01.Setup();
 // Console.WriteLine("Index: " + FirstUniqueCharProblem.FirstUniqueChar("leodevl"));
 //Console.WriteLine("Index: " + BinarySearchProblem.BinarySearch(new int[]{0, 1, 21, 33, 45, 45, 61, 71, 72, 73}, 33));
-Console.WriteLine(string.Join(", ", InsertionSortProblem.InsertionSort(new int[]{8, 5, 2, 9, 5, 6, 3})));
+// Console.WriteLine(string.Join(", ", InsertionSortProblem.InsertionSort(new int[]{8, 5, 2, 9, 5, 6, 3})));
+Console.WriteLine(IsValidSubsequenceProblem.IsValidSubsequence(
+            new List<int> { 5, 1, 22, 25, 6, -1, 8, 10 },
+            new List<int> { 1, 6, -1, 10 }
+        ));
 
