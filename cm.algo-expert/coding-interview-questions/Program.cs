@@ -25,20 +25,38 @@
 //         ));
 
 
+// // Criando os nós e a estrutura do grafo
+//         DepthFirstSearchProgram.Node root = new DepthFirstSearchProgram.Node("A");
+//         root.AddChild("B").AddChild("C").AddChild("D");
+//         root.children[0].AddChild("E").AddChild("F");
+//         root.children[2].AddChild("G").AddChild("H");
+//         root.children[0].children[1].AddChild("I").AddChild("J");
+//         root.children[2].children[0].AddChild("K");
+
+//         // Lista para armazenar a saída
+//         List<string> result = new List<string>();
+
+//         // Executando a busca em profundidade
+//         result = root.DepthFirstSearch(result);
+
+//         // Exibindo o resultado
+//         Console.WriteLine(string.Join(", ", result));
+
+
+
 // Criando os nós e a estrutura do grafo
-        DepthFirstSearchProgram.Node root = new DepthFirstSearchProgram.Node("A");
-        root.AddChild("B").AddChild("C").AddChild("D");
-        root.children[0].AddChild("E").AddChild("F");
-        root.children[2].AddChild("G").AddChild("H");
-        root.children[0].children[1].AddChild("I").AddChild("J");
-        root.children[2].children[0].AddChild("K");
+BreadthFirstSearchProgram.Node root = new BreadthFirstSearchProgram.Node("A");
+root.AddChild("B").AddChild("C").AddChild("D");
+root.children[0].AddChild("E").AddChild("F");
+root.children[2].AddChild("G").AddChild("H");
+root.children[0].children[1].AddChild("I").AddChild("J");
+root.children[2].children[0].AddChild("K");
 
-        // Lista para armazenar a saída
-        List<string> result = new List<string>();
+// Lista para armazenar a saída
+List<string> result = new List<string>();
 
-        // Executando a busca em profundidade
-        result = root.DepthFirstSearch(result);
+// Executando a busca em profundidade
+result = root.BreadthFirstSearch(result);
 
-        // Exibindo o resultado
-        Console.WriteLine(string.Join(", ", result));
-
+// Exibindo o resultado
+Console.WriteLine(string.Join(", ", result));
