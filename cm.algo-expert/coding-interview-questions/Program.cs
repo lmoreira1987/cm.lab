@@ -44,19 +44,21 @@
 
 
 
-// Criando os nós e a estrutura do grafo
-BreadthFirstSearchProgram.Node root = new BreadthFirstSearchProgram.Node("A");
-root.AddChild("B").AddChild("C").AddChild("D");
-root.children[0].AddChild("E").AddChild("F");
-root.children[2].AddChild("G").AddChild("H");
-root.children[0].children[1].AddChild("I").AddChild("J");
-root.children[2].children[0].AddChild("K");
+// // Criando os nós e a estrutura do grafo
+// BreadthFirstSearchProgram.Node root = new BreadthFirstSearchProgram.Node("A");
+// root.AddChild("B").AddChild("C").AddChild("D");
+// root.children[0].AddChild("E").AddChild("F");
+// root.children[2].AddChild("G").AddChild("H");
+// root.children[0].children[1].AddChild("I").AddChild("J");
+// root.children[2].children[0].AddChild("K");
 
-// Lista para armazenar a saída
-List<string> result = new List<string>();
+// // Lista para armazenar a saída
+// List<string> result = new List<string>();
 
-// Executando a busca em profundidade
-result = root.BreadthFirstSearch(result);
+// // Executando a busca em profundidade
+// result = root.BreadthFirstSearch(result);
 
-// Exibindo o resultado
-Console.WriteLine(string.Join(", ", result));
+// // Exibindo o resultado
+// Console.WriteLine(string.Join(", ", result));
+
+FindClosestValueInBstProgram.Setup();
