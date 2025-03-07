@@ -24,7 +24,6 @@ public class FindClosestValueInBstProgram {
   }
 
   public static void Setup() {
-        // Criando a BST
         BST tree = new BST(10);
         tree.left = new BST(5);
         tree.left.left = new BST(2);
@@ -36,12 +35,11 @@ public class FindClosestValueInBstProgram {
         tree.right.right = new BST(22);
         tree.right.left.right = new BST(14);
 
-        // Testes com diferentes targets
-        Console.WriteLine(FindClosestValueInBst(tree, 12)); // Deve retornar 13
-        Console.WriteLine(FindClosestValueInBst(tree, 4));  // Deve retornar 5
-        Console.WriteLine(FindClosestValueInBst(tree, 23)); // Deve retornar 22
-        Console.WriteLine(FindClosestValueInBst(tree, 1));  // Deve retornar 1
-        Console.WriteLine(FindClosestValueInBst(tree, 8));  // Deve retornar 10
+        Console.WriteLine(FindClosestValueInBst(tree, 12)); // 13
+        Console.WriteLine(FindClosestValueInBst(tree, 4));  // 5
+        Console.WriteLine(FindClosestValueInBst(tree, 23)); // 22
+        Console.WriteLine(FindClosestValueInBst(tree, 1));  // 1
+        Console.WriteLine(FindClosestValueInBst(tree, 8));  // 10
     }
 
   public class BST {
