@@ -34,6 +34,7 @@ public class Solution01 {
 
   public static void Setup()
   {
-    Console.WriteLine("Element: " + FindElementWithHighestFrequency(new int[]{1,1,1,3,3,2,2,2}));
+    Console.WriteLine("Element: " + 
+      FindElementWithHighestFrequency(new int[]{1,1,1,3,3,2,2,2}));
   }
 }

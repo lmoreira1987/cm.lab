@@ -1,20 +1,18 @@
 using System;
 
 public class GreenBubbleSort {
-  public static int[] BubbleSort(int[] array) {
-    
-    for (int i = 0; i < array.Length; i++)
+    // O(n²) no pior caso time | O(1) space
+   public static int[] BubbleSort(int[] array) {
+    for (int i = 0; i < array.Length - 1; i++)
     {
-        var temp = i+1;
-        for (int j = 0; j < array.Length - (i+1); j++, temp++)
+        for (int j = 0; j < array.Length - i - 1; j++)
         {
-            if (array[i] > array[temp])
+            if (array[j] > array[j + 1])
             {
-                swap(array, i, temp);
-            }            
+                swap(array, j, j + 1);
+            }
         }
     }
-
     return array;
   }
 
